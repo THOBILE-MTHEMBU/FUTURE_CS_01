@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <rect width="1200" height="760" fill="#eef3f1"/>
+  <rect x="40" y="40" width="1120" height="680" rx="18" fill="#ffffff" stroke="#c8d2cf" stroke-width="2"/>
+  <rect x="40" y="40" width="1120" height="56" rx="18" fill="#2a3d45"/>
+  <text x="72" y="75" fill="#ffffff" font-family="Consolas, monospace" font-size="28">Evidence Summary - Passive Header and Hardening Review</text>
+  <text x="72" y="136" fill="#2a3d45" font-family="Consolas, monospace" font-size="24">Passive header snapshot reported Security 0</text>
+  <rect x="72" y="176" width="500" height="458" rx="12" fill="#142129"/>
+  <text x="98" y="216" fill="#d9eef8" font-family="Consolas, monospace" font-size="22">Observed headers:</text>
+  <text x="98" y="256" fill="#d9eef8" font-family="Consolas, monospace" font-size="22">connection</text>
+  <text x="98" y="292" fill="#d9eef8" font-family="Consolas, monospace" font-size="22">content-type</text>
+  <text x="98" y="328" fill="#d9eef8" font-family="Consolas, monospace" font-size="22">date</text>
+  <text x="98" y="364" fill="#d9eef8" font-family="Consolas, monospace" font-size="22">location</text>
+  <text x="98" y="400" fill="#f8d7a4" font-family="Consolas, monospace" font-size="22">server</text>
+  <text x="98" y="436" fill="#d9eef8" font-family="Consolas, monospace" font-size="22">transfer-encoding</text>
+  <text x="98" y="472" fill="#f8d7a4" font-family="Consolas, monospace" font-size="22">x-powered-by</text>
+  <text x="98" y="544" fill="#f8d7a4" font-family="Consolas, monospace" font-size="22">Missing common security headers:</text>
+  <text x="98" y="580" fill="#f8d7a4" font-family="Consolas, monospace" font-size="22">CSP, X-Content-Type-Options,</text>
+  <text x="98" y="616" fill="#f8d7a4" font-family="Consolas, monospace" font-size="22">X-Frame-Options, Referrer-Policy,</text>
+  <text x="98" y="652" fill="#f8d7a4" font-family="Consolas, monospace" font-size="22">Permissions-Policy</text>
+  <rect x="608" y="176" width="520" height="458" rx="12" fill="#f7f0e6" stroke="#dfd2bf"/>
+  <text x="634" y="220" fill="#654d2d" font-family="Consolas, monospace" font-size="22">Business interpretation:</text>
+  <text x="634" y="266" fill="#654d2d" font-family="Consolas, monospace" font-size="22">- Browser-side protections are weaker than they should be</text>
+  <text x="634" y="312" fill="#654d2d" font-family="Consolas, monospace" font-size="22">- Server fingerprinting is easier for attackers</text>
+  <text x="634" y="358" fill="#654d2d" font-family="Consolas, monospace" font-size="22">- Weak hardening compounds outdated technology risk</text>
+  <text x="634" y="430" fill="#8b1e1e" font-family="Consolas, monospace" font-size="22">Suggested fixes:</text>
+  <text x="634" y="476" fill="#8b1e1e" font-family="Consolas, monospace" font-size="22">- add a modern security header baseline</text>
+  <text x="634" y="522" fill="#8b1e1e" font-family="Consolas, monospace" font-size="22">- suppress unnecessary technology disclosure</text>
+  <text x="634" y="568" fill="#8b1e1e" font-family="Consolas, monospace" font-size="22">- revalidate after deployment with passive review</text>
+</svg>
