@@ -55,6 +55,7 @@ Note: `nmap`, OWASP ZAP, and direct GUI browser tooling were part of the origina
 - Formal report: [report/Vulnerability_Assessment_Report.md](report/Vulnerability_Assessment_Report.md)
 - Word document: [report/Vulnerability_Assessment_Report.docx](report/Vulnerability_Assessment_Report.docx)
 - PDF document: [report/Vulnerability_Assessment_Report.pdf](report/Vulnerability_Assessment_Report.pdf)
+- Canva-designed report PDF: [report/Vulnerability_Assessment_Report_Canva.pdf](report/Vulnerability_Assessment_Report_Canva.pdf)
 - Evidence log: [evidence/02_passive_scan_evidence.md](evidence/02_passive_scan_evidence.md)
 - Findings matrix: [evidence/03_findings_matrix.md](evidence/03_findings_matrix.md)
 - Screenshot notes: [evidence/04_screenshot_notes.md](evidence/04_screenshot_notes.md)
@@ -88,6 +89,7 @@ FUTURE_CS_01/
 |   |-- generate_docx.py
 |   `-- generate_pdf.py
 |-- report/
+|   |-- Vulnerability_Assessment_Report_Canva.pdf
 |   |-- Vulnerability_Assessment_Report.docx
 |   |-- Vulnerability_Assessment_Report.md
 |   `-- Vulnerability_Assessment_Report.pdf
@@ -111,3 +113,5 @@ This repository is written so it can be reviewed by:
 - a security consultant
 
 The report intentionally avoids unnecessary jargon and ties each issue to practical business risk and remediation priority.
+
+The repository now also includes the Canva-designed PDF version requested in the task brief for a more presentation-ready client deliverable.
